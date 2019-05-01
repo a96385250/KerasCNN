@@ -1,12 +1,12 @@
 # KerasCNN
 
-訓練model方法:
+1. 先在外層建立examples跟output資料夾 </br>
 
-1.dataset 建立labe資料夾並且取名
+2. 輸入 python classify.py </br>
+＊注意只能在Python3.6環境下跑 </br>
+＊注意鏡頭的位置 </br> 
+＊可能每台的電腦的效能不太同，會造成攝影時間不同 </br>
+＊可能因為訓練的環境不同，可能會判斷錯誤 </br>
 
-2.輸入command指令 python train.py --dataset dataset --model pokedex.model --labelbin lb.pickle
-
-＊注意只能在Python3.6環境下跑
-python3.6 classify.py
-
-參考資料：https://www.pyimagesearch.com/2018/04/16/keras-and-convolutional-neural-networks-cnns/
+功能介紹：</br>
+這是一個AI保全系統，判斷照片是否是壞人或正常人，如果判斷照片是壞人，會傳訊息到Line做通知，不是則不會(可以去output資料夾看輸出照片結果 </br>
